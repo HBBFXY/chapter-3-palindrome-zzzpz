@@ -5,4 +5,4 @@ else:
     if num == num[::-1]:
         print("是回文数")
     else:
-        print("不是回文数")# 这里编写你的代码
+        print("不是回文数")
