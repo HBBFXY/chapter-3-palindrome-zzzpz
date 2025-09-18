@@ -2,7 +2,7 @@ def main():
     num = input().strip()
     
     if not num.isdigit() or len(num) != 5:
-        print("请输入5位数字")
+        print("输入错误: 请输入5位数字")
         return
         
     if num == num[::-1]:
